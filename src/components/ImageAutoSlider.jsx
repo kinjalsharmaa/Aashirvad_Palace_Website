@@ -3,12 +3,10 @@ const images = [
   '/images/homepagephotos.jpeg',
   '/images/WhatsApp Image 2026-05-02 at 20.12.14.jpeg',
   '/images/frontview.png',
-  '/images/screenshot-1.png',
-  'https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=600&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=600&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?q=80&w=600&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1530026405186-ed1f139313f8?q=80&w=600&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1519167758481-83f550bb49b3?q=80&w=600&auto=format&fit=crop',
+  '/images/gallery-1.png',
+  '/images/gallery-2.png',
+  '/images/gallery-3.png',
+  '/images/gallery-4.png',
 ];
 
 const duplicatedImages = [...images, ...images];

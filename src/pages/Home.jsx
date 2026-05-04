@@ -56,7 +56,7 @@ export default function Home() {
           </p>
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://wa.me/971561408468?text=Hi%2C%20I%27d%20like%20to%20book%20my%20wedding%20date%20at%20Aashirvaad%20Palace"
+              href="https://wa.me/919317625073?text=Hi%2C%20I%27d%20like%20to%20book%20my%20wedding%20date%20at%20Aashirvaad%20Palace"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-4 bg-accent text-charcoal font-semibold rounded-lg hover:bg-accent/90 transition-all hover:scale-105 shadow-lg text-center"
@@ -114,7 +114,7 @@ export default function Home() {
               {
                 name: 'WhatsApp',
                 image: 'https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg',
-                onClick: () => window.open('https://wa.me/971561408468', '_blank'),
+                onClick: () => window.open('https://wa.me/919317625073', '_blank'),
               },
             ]}
           />
@@ -215,7 +215,7 @@ export default function Home() {
           <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">Ready to Celebrate?</h2>
           <p className="text-xl text-white/80 mb-8">Book your special date today and let us make your dreams come true</p>
           <a
-            href="https://wa.me/971561408468?text=Hi%2C%20I%27d%20like%20to%20book%20my%20wedding%20date%20at%20Aashirvaad%20Palace"
+            href="https://wa.me/919317625073?text=Hi%2C%20I%27d%20like%20to%20book%20my%20wedding%20date%20at%20Aashirvaad%20Palace"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block px-10 py-4 bg-accent text-charcoal font-bold text-lg rounded-lg hover:bg-white transition-all hover:scale-105 shadow-xl text-center"

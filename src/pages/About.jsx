@@ -13,7 +13,7 @@ export default function About() {
           <h1 className="text-4xl md:text-5xl font-bold text-primary mb-4">Our Story</h1>
           <div className="w-16 h-1 bg-accent mx-auto mb-6"></div>
           <p className="text-lg text-charcoal/70 max-w-2xl mx-auto">
-            Two decades of creating unforgettable celebrations with love, dedication, and excellence.
+            A palace as fresh as it is beautiful — where every guest is welcomed with blessings and every moment becomes a cherished memory.
           </p>
         </div>
       </section>
@@ -23,22 +23,16 @@ export default function About() {
         <div className="max-w-6xl mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-10 md:gap-16 items-center">
             <div>
-              <h2 className="text-3xl font-bold text-primary mb-6">The Beginning</h2>
+              <h2 className="text-3xl font-bold text-primary mb-6">Welcome to Aashirvad Palace</h2>
               <div className="w-12 h-1 bg-accent mb-6"></div>
               <p className="text-charcoal/80 leading-relaxed mb-4">
-                Founded in 2005, Aashirvaad Palace was born from a simple yet powerful vision: to create a venue 
-                where every celebration feels like a royal affair. What started as a modest banquet hall has now 
-                grown into one of the most sought-after wedding and event destinations in the region.
+                Welcome to Aashirvad Palace — a stunning celebration venue owned by Rajeev Shastri. Built just a year ago, everything inside is brand new and beautifully renovated, from the elegant interiors to the modern facilities.
               </p>
               <p className="text-charcoal/80 leading-relaxed mb-4">
-                Our founder, Rajesh Kumar, drew inspiration from the grand palaces of Rajasthan, blending 
-                traditional Indian architecture with modern amenities. Every corner of Aashirvaad Palace reflects 
-                this harmonious fusion of heritage and contemporary elegance.
+                Aashirvad Palace is a place where the spirit of Diwali shines bright — a venue that radiates warmth, joy, and the magic of togetherness. With full catering services and everything you need under one roof, we are dedicated to making every occasion truly special.
               </p>
               <p className="text-charcoal/80 leading-relaxed">
-                Over the years, we have had the privilege of hosting thousands of weddings, receptions, corporate 
-                events, and social gatherings. Each event is a testament to our commitment to excellence and our 
-                passion for making dreams come true.
+                Come experience a palace that is as fresh as it is beautiful — where every guest is welcomed with blessings and every moment becomes a cherished memory.
               </p>
             </div>
             <div className="relative">

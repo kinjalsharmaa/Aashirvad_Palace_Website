@@ -6,18 +6,14 @@ const galleryImages = [
   { src: "/images/frontview.png", alt: "Aashirvaad Palace front view" },
   { src: "/images/homepage_photos.jpeg", alt: "Aashirvaad Palace venue" },
   { src: "/images/homepagephotos.jpeg", alt: "Aashirvaad Palace interior" },
-  { src: "/images/screenshot-1.png", alt: "Aashirvaad Palace event" },
   { src: "/images/WhatsApp Image 2026-05-02 at 20.12.14.jpeg", alt: "Aashirvaad Palace celebration" },
-  { src: "https://images.unsplash.com/photo-1519741497674-611481863552?w=600&fit=crop", alt: "Traditional wedding ceremony" },
-  { src: "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=600&fit=crop", alt: "Grand reception hall setup" },
-  { src: "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=600&fit=crop", alt: "Floral decoration arrangement" },
-  { src: "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=600&fit=crop", alt: "Elegant event setup" },
-  { src: "https://images.unsplash.com/photo-1520854221256-17451cc331bf?w=600&fit=crop", alt: "Luxurious table setting" },
-  { src: "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?w=600&fit=crop", alt: "Romantic wedding couple" },
-  { src: "https://images.unsplash.com/photo-1478146059778-26028b47306a?w=600&fit=crop", alt: "Festive celebration lights" },
+  { src: "/images/gallery-1.png", alt: "Aashirvaad Palace venue" },
+  { src: "/images/gallery-2.png", alt: "Aashirvaad Palace celebration" },
+  { src: "/images/gallery-3.png", alt: "Aashirvaad Palace decor" },
+  { src: "/images/gallery-4.png", alt: "Aashirvaad Palace event" },
 ]
 
-const filters = ["all", "weddings", "receptions", "decor"]
+const filters = ["all", "venue", "celebrations", "decor"]
 
 export default function Gallery() {
   const [activeFilter, setActiveFilter] = useState("all")
@@ -25,9 +21,9 @@ export default function Gallery() {
   const filteredItems = activeFilter === "all"
     ? galleryImages
     : galleryImages.filter(item => {
-        if (activeFilter === "weddings") return ["Traditional wedding ceremony", "Romantic wedding couple"].includes(item.alt)
-        if (activeFilter === "receptions") return ["Grand reception hall setup", "Elegant event setup", "Festive celebration lights", "Aashirvaad Palace event", "Aashirvaad Palace celebration"].includes(item.alt)
-        if (activeFilter === "decor") return ["Floral decoration arrangement", "Luxurious table setting"].includes(item.alt)
+        if (activeFilter === "venue") return ["front view", "venue", "interior"].some(k => item.alt.toLowerCase().includes(k))
+        if (activeFilter === "celebrations") return ["celebration", "event"].some(k => item.alt.toLowerCase().includes(k))
+        if (activeFilter === "decor") return ["decor"].some(k => item.alt.toLowerCase().includes(k))
         return true
       })
 
