@@ -25,9 +25,9 @@ export default function About() {
             <div>
               <h2 className="text-3xl font-bold text-primary mb-6">Welcome to Aashirvad Palace</h2>
               <div className="w-12 h-1 bg-accent mb-6"></div>
-              <p className="text-charcoal/80 leading-relaxed mb-4">
-                Welcome to Aashirvad Palace — a stunning celebration venue owned by Rajeev Shastri. Built just a year ago, everything inside is brand new and beautifully renovated, from the elegant interiors to the modern facilities.
-              </p>
+<p className="text-charcoal/80 leading-relaxed mb-4">
+                 Welcome to Aashirvad Palace — a stunning celebration venue that opened its doors just a year ago. Every corner of the palace is brand new and beautifully designed, featuring elegant interiors and modern facilities that create the perfect backdrop for your special moments.
+               </p>
               <p className="text-charcoal/80 leading-relaxed mb-4">
                 Aashirvad Palace is a place where the spirit of Diwali shines bright — a venue that radiates warmth, joy, and the magic of togetherness. With full catering services and everything you need under one roof, we are dedicated to making every occasion truly special.
               </p>
